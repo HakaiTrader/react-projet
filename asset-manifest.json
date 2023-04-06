@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-projet/static/css/main.7e646c76.css",
+    "main.js": "/react-projet/static/js/main.fbeecd5f.js",
+    "static/media/Slide2-1.jpeg": "/react-projet/static/media/Slide2-1.c3dac33ad813c51cd001.jpeg",
+    "static/media/Slide2-3.jpeg": "/react-projet/static/media/Slide2-3.e688a2700c19d6ada6df.jpeg",
+    "static/media/Chair-picture.png": "/react-projet/static/media/Chair-picture.91337d70946b3216a38a.png",
+    "static/media/Slide1-3.jpeg": "/react-projet/static/media/Slide1-3.6696768b4169d85e9ca2.jpeg",
+    "static/media/Slide1-1.jpeg": "/react-projet/static/media/Slide1-1.b9ddd5bf93eeb508ea4f.jpeg",
+    "static/media/Slide2-2.jpeg": "/react-projet/static/media/Slide2-2.f66df41471b4fa5f44e5.jpeg",
+    "static/media/StepImg.jpeg": "/react-projet/static/media/StepImg.89faa1d0f22292d2a39d.jpeg",
+    "static/media/Slide1-2.jpeg": "/react-projet/static/media/Slide1-2.0b5504a935ddac845b59.jpeg",
+    "static/media/Chaises.jpeg": "/react-projet/static/media/Chaises.18278a03482313698565.jpeg",
+    "static/media/PictureHome.jpeg": "/react-projet/static/media/PictureHome.76ea005c748de37948db.jpeg",
+    "static/media/Instagram.svg": "/react-projet/static/media/Instagram.401329accb07bc1bc839635722957019.svg",
+    "static/media/homeimg.svg": "/react-projet/static/media/homeimg.a7e60c367c5b3e6ada05df25d4b4743d.svg",
+    "static/media/Twitter.svg": "/react-projet/static/media/Twitter.916cdd6c8f0095a66c11ffca2e732257.svg",
+    "index.html": "/react-projet/index.html",
+    "static/media/left-arrow.svg": "/react-projet/static/media/left-arrow.da21225bcf530088451874c9e21c215a.svg",
+    "static/media/right-arrow.svg": "/react-projet/static/media/right-arrow.d19ce8f87764b5901ed2ca6f0ff22d03.svg",
+    "static/media/Facebook.svg": "/react-projet/static/media/Facebook.bcb6de7d193fea93fc41e752e8348deb.svg",
+    "static/media/Menu.svg": "/react-projet/static/media/Menu.230ce7ebac47221f71ff65a4369a1d1e.svg",
+    "main.7e646c76.css.map": "/react-projet/static/css/main.7e646c76.css.map",
+    "main.fbeecd5f.js.map": "/react-projet/static/js/main.fbeecd5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e646c76.css",
+    "static/js/main.fbeecd5f.js"
+  ]
+}

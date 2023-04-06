@@ -1,0 +1,72 @@
+@media screen and (min-width: 760px) {
+    
+    .Contact, .block-blue, .block-cyan {
+    
+        width: 640px;
+    }
+    .contact{
+
+        width: 540px;
+
+    }
+    .contact-us{
+
+        align-self: flex-start;
+        padding-left: 20px;
+    }
+    .contact-us h1 {
+
+        font-size: 35px;
+    }
+    .reseaux{
+
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width: 990px) {
+
+    .Contact,
+    .block-blue,
+    .block-cyan{
+        width: 820px;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        width: 720px;
+        height: 766px;
+        padding: 40px 30px 40px 20px;
+    }
+    form{
+
+        width: 396px;
+    }
+}
+@media screen and (min-width: 1200px){
+
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+    .contact {
+        width: 1140px;
+        height: 528px;
+    }
+    .Contact,
+    .block-blue,
+    .block-cyan{
+        width: 1200px;
+    }
+    form {
+
+        width: 627px;
+    }
+    .contactus-reseaux{
+
+        width: 513px;
+    }
+    .contact-us p {
+        
+        font-size: 20px;
+    }
+}

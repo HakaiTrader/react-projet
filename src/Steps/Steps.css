@@ -1,0 +1,88 @@
+.Steps {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D7E5F3;
+    width: 440px;
+    margin: 0 auto;
+    margin-top: -20px;
+    padding-top: 50px;
+}
+.step {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 35px;
+}
+.number {
+
+    font-size: 70px;
+    color: #0052FF;
+    margin-bottom: 25px;
+}
+.step h2:nth-child(2){
+
+    font-family: 'Roboto Slab', sans-serif,serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.step h2:nth-child(2){
+
+    font-size: 30px;
+}
+.step-txt{
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.barre {
+
+    width: 50px;
+    height: 3px;
+    background-color: #0052FF;
+    margin: 30px 0 45px 0;
+}
+.step-img{
+
+    background-image: url(./StepImg.jpeg);
+    width: 301px;
+    height: 391px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.whatwedo{
+
+    width: 321px;
+    height: 405px;
+    background-color: white;
+    padding: 50px 32px 0 28px;
+    transform: translate(-35px,-45px);
+    box-shadow: 0 5px 25px 5px rgba(128, 128, 128, 0.355);
+}
+.whatwedo h2{
+    font-size: 35px;
+    font-family: "roboto slab",serif,sans-serif;
+}
+.whatwedo >* {
+
+    margin-bottom: 25px;
+}
+.whatwedo img {
+
+    height: 30px;
+    width: 30px;
+}
+.whatwedo button {
+
+    padding: 10px 30px;
+    background-color: #0052FF;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}

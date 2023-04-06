@@ -1,0 +1,128 @@
+.Contact {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 1100px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+.block-blue {
+    background-color: #0052FF ;
+    height: 450px;
+    width: 440px;
+}
+.block-cyan {
+
+    background-color: #E6EEFF;
+    height: 90%;
+    width: 440px;
+}
+.contact {
+    position: absolute;
+    top: 65px;
+    background-color: white;
+    width: 340px;
+    height: 970px;
+    padding: 12px 25px;
+}
+.input-contact form{
+
+    display: flex;
+    flex-direction: column;
+    padding: 35px 25px;
+}
+.input-contact input{
+
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1.5px solid black;
+}
+.input-contact form input::placeholder{
+
+    font-size: 18px;
+    color: #B8B8B8;
+}
+.input-contact textarea {
+
+    border: none;
+    border-bottom: 2px solid black;
+}
+.input-contact textarea::placeholder{
+
+    font-size: 19px;
+    color: #B8B8B8;
+}
+.input-contact .submit {
+
+    cursor: pointer;
+    background-color: #0052FF;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 140px;
+    padding: 12px 25px;
+    margin: 30px 0 50px 0
+}
+.input-contact .submit:hover {
+
+    background-color: #0247dc;
+}
+.contact-us{
+
+    margin-bottom: 50px;
+    font-family: 'roboto slab', sans-serif,serif;
+    font-weight:bold;
+}
+.contactus-reseaux{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-us>* {
+    margin-bottom: 20px;
+}
+.contact-us p:first-child{
+    font-size: 18.5px;
+    color: #4D4D4D;
+}
+.contact-us h1{
+
+    color: #4D4D4D;
+    font-family: 'roboto slab', serif,sans-serif;
+}
+.p-contact{
+
+    color: #808080;
+    font-size: 19.5px;
+    line-height: 28px;
+}
+.contact-us .mail {
+
+    color: #0247dc;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reseaux p {
+
+    font-size: 22px;
+    color: #808080;
+}
+.reseaux{
+
+    align-self: flex-start;
+
+}
+.icon-reseau i {
+
+    margin: 20px 10px 30px 5px;
+    font-size: 30px;
+    color: blue;
+}

@@ -1,0 +1,85 @@
+@media screen and (min-width: 760px) {
+    .Chair {
+
+        width: 640px;
+        margin-bottom: 0;
+    }
+
+    .chair-picture {
+
+        width: 480px;
+        height: 451px;
+        transform: translateY(-30px);
+        background-position: 80%;
+    }
+
+    .whatwedo-chair {
+
+        width: 320px;
+        height: 480px;
+        transform: translate(-22px, -220px);
+    }
+}
+
+@media screen and (min-width: 990px) {
+
+    .Chair {
+
+        width: 820px;
+    }
+
+    .chair-picture {
+
+        width: 437px;
+        height: 482px;
+        transform: translate();
+    }
+
+    .whatwedo-chair {
+
+        width: 426px;
+        height: 430px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .Chair {
+
+        width: 1200px;
+    }
+
+    .chair-picture {
+        width: 550px;
+        height: 506px;
+    }
+
+    .whatwedo-chair {
+
+        width: 604px;
+        height: 522px;
+    }
+
+    .whatwedo-chair img {
+
+        width: 64px;
+        height: 64px;
+    }
+    .whatwedo-chair-txt p {
+
+        font-size: 20px;
+    }
+
+    .whatwedo-chair-txt img:nth-child(5) {
+
+        width: 514px;
+        height: 446px;
+        bottom: -40%;
+        ;
+    }
+    .chair-button{
+
+        width: 102px;
+        height: 42px;
+    }
+}

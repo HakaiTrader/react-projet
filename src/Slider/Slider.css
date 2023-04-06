@@ -1,0 +1,150 @@
+
+.Slider,.slide {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.Slider h3{
+
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif,sans-serif;
+    margin-bottom: 20px;
+}
+.slide-txt p {
+
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+    font-style: italic;
+}
+.slide1-1,
+.slide1-2,
+.slide1-3,
+.slide2-1,
+.slide2-2,
+.slide2-3{
+    
+    width: 340px;
+    height: 487px;
+    border: 1px solid lightgrey;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.slide1-1-img{
+    background-image: url(./Slide1-1.jpeg);
+    width: 340px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.slide1-2-img{
+    background-image: url(./Slide1-2.jpeg);
+    width: 340px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.slide1-3-img{
+    background-image: url(./Slide1-3.jpeg);
+    width: 340px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.slide2-1-img{
+    background-image: url(./Slide2-1.jpeg);
+    width: 340px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.slide2-2-img{
+    background-image: url(./Slide2-2.jpeg);
+    width: 340px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.slide2-3-img{
+    background-image: url(./Slide2-3.jpeg);
+    width: 340px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.slide-txt{
+
+    padding: 20px 10px;
+
+}
+
+.slide2{
+
+    position: absolute;
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+  }
+
+.arrow{
+
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.235);
+    border: 1px solid black;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.left-arrow{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    width: 25px;
+    top: 45%;
+    background-color: rgba(128, 128, 128, 0.281);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right-arrow{
+
+    display: flex;
+    position: absolute;
+    right: 10%;
+    width: 25px;
+    top: 45%;
+    background-color: rgba(128, 128, 128, 0.281);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    transition: all .25s ease-in;
+    opacity: 1;
+    filter: alpha(opacity=40);
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    background: none;
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+}
+.carousel {
+
+    width: 450px;
+}

@@ -1,0 +1,47 @@
+@media screen and (min-width: 760px) {
+    
+    .slides{
+
+        width: 538px;
+        height: auto
+    }
+    .slideimg {
+
+        width: 538px;
+    }
+}
+@media screen and (min-width:990px) {
+    .slide1, .slide2{
+        display: flex;
+        flex-direction: row !important; 
+        justify-content: center;
+        column-gap: 32px;
+    }
+    .slides{
+
+        width: 220px;
+        height: 541px;
+    }
+    .slideimg{
+
+        width: 218px;
+        height: 360px;
+    }
+    .carousel-root .Slider{
+
+        display: none;
+    } 
+}
+@media screen and (min-width:1200px) {
+    .Slider{
+        margin: 150px 0;
+    }
+    .slides {
+
+        width: 360px;
+        height: 487px;
+    }
+    .slideimg {
+        width: 360px;
+    }
+}

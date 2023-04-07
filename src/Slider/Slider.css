@@ -148,3 +148,13 @@
 
     width: 450px;
 }
+.carousel-status{
+
+    display: none;
+}
+.carousel .control-arrow.control-next,
+.carousel .control-arrow.control-prev{
+
+    background-color: rgba(77, 202, 209, 0.151);
+    width: 20px;
+}

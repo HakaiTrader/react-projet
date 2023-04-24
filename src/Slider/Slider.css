@@ -148,7 +148,7 @@
 
     width: 450px;
 }
-.carousel-status{
+.carousel .carousel-status{
 
     display: none;
 }

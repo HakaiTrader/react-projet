@@ -148,6 +148,9 @@
 
     width: 450px;
 }
+.carousel .carousel-status{
+    display: none;
+}
 .carousel .control-arrow.control-next,
 .carousel .control-arrow.control-prev{
 
